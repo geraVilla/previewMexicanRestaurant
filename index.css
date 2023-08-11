@@ -1,0 +1,1816 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(14,20,54,255);
+}
+
+.header{
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(14,20,54,255);
+
+}
+
+.titleAndImage{
+    font-family: 'Concert One', cursive;
+    margin-left: 20px;
+    
+}
+
+.navBar{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Concert One', cursive;
+    font-size: 25px;
+}
+.home{
+    margin-right: 50px;
+}
+.About{
+    margin-left: 50px;
+}
+
+.allSocials{
+    margin-right: 20px;
+}
+.icon{
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+}
+
+.firstImageContainer{
+    position: relative;
+    background-color: rgba(14,20,54,255);
+    width: 100%;
+    height: 600px;
+}
+.skullImage{
+    height: 50px;
+    width: 50px;
+}
+#skullOne{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#skullTwo{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    transform: rotate(20deg);
+}
+.image{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    
+}
+
+.titleAndButtons{
+    color: white;
+    font-family: 'Concert One', cursive;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+
+}
+
+.buttonContainer{
+    
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.orderOnlineButton{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    border: 4px solid white;
+    transition: background-color 0.8s ease;
+    cursor: pointer;
+}
+.orderOnlineButton:hover{
+    
+    background-color: white;
+}
+
+.orderOnlineButton:hover p{
+    color: rgba(14,20,54,255);
+}
+
+.seeMenuButton{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    border: 4px solid white;
+    transition: background-color 0.8s ease;
+    cursor: pointer;
+}
+
+.seeMenuButton:hover{
+    background-color: white;
+}
+.seeMenuButton:hover p{
+    color: rgba(14,20,54,255);
+}
+
+/*.ourOriginContainer{
+    width: 100%;
+    background-color: rgba(14,20,54,255);
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+}
+
+.leftSideContainer{
+    position: relative;
+    width: 50%;
+    height: 600px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.lContainer{
+    position: relative;
+    width: 45%;
+    height: 400px;
+    z-index: 101;
+}
+
+
+#michoacanImage{
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    
+    
+}
+
+.rightSideContainer{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.rContainer{
+    width: 50%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ourStoryTitle{
+    margin-bottom: 0px;
+    color: white;
+    font-family: 'Concert One', cursive;
+}
+.ourStoryOriginTitle{
+    color: white;
+    font-family: 'Concert One', cursive;
+}
+.ourStoryParagraph{
+    font-family: 'Roboto Slab', serif;
+    color: rgba(194, 194, 194, 0.5)
+}*/
+
+.ourOriginContainer{
+    margin-top: 40px;
+    
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.titleContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#ourStoryTitle{
+    color: white;
+    font-family: 'Concert One', cursive;
+}
+
+.bothSidesContainer{
+    width: 100%;
+    height: 480px;
+    /*background-color: red;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    
+}
+
+.imageContainer{
+    width: 300px;
+    height: 450px;
+}
+
+#rogerImage{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+    filter: grayscale(100%);
+}
+
+#alexImage{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+    filter: grayscale(100%);
+}
+
+.textContainer{
+    margin-left: 40px;
+    margin-right: 40px;
+    width: 380px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.originTitleContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.originTitleContainer h2{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.originParagraphContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /*background-color: rebeccapurple;*/
+}
+
+.originParagraphContainer p{
+    color: rgba(199, 199, 199, 0.8);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+
+}
+
+
+
+/*.reviewSection{
+    width: 100%;
+    height: 500px;
+    
+    background-color: rgb(27, 26, 99);
+}
+
+.reviewTitleContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.reviewTitleContainer h1{
+    
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: white;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+.reviewParagraphContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.reviewParagraphContainer p{
+    font-family: 'Montserrat', sans-serif;
+    color: rgba(199, 199, 199, 1);
+    font-size: 18px;
+}
+
+.reviewContainer{
+    height: 280px;
+    width: 450px;
+    background-color: rgba(14,20,54,255);
+    border-radius: 10px;
+}
+
+.starsContainer{
+    width: 100%;
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    
+    margin-left: 20px;
+    
+   
+}
+
+.filledStar{
+    height: 35px;
+    width: 35px;
+    margin-left: 8px;
+    
+    
+}
+
+.overViewSection{
+    width: 100%;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 30px;
+    
+    margin-top: 0px;
+}
+.overViewSection p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: white;
+    font-size: 20px;
+    
+}
+
+.actualCommentSection{
+    width: 80%;
+    margin-left: 25px;
+}
+.actualCommentSection p{
+    color: rgba(199, 199, 199, 0.8);
+    font-weight: 300;
+    font-style: italic;
+    font-family: 'Montserrat', sans-serif;   
+    font-size: 15px;
+}*/
+
+.servicesProvidedContainer{
+    position: relative;
+    width: 100%;
+    background-color: rgb(27, 26, 99);
+}
+
+#partyGIF{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    top: 5%;
+    left: 10%;
+}
+
+.servicesTitle{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.servicesTitle h1{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.servicesIconContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.individualIcon{
+    height: 350px;
+    width: 200px;
+    /*background-color: red;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.individualIcon h1{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.floatIcon{
+    animation: float 3s ease-in-out infinite;
+}
+@keyframes float {
+    0%{transform: translateY(0);}
+    50%{transform: translateY(-10px);}
+    100%{transform: translateY(0);}
+}
+
+.circleContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    height: 150px;
+    width: 150px;
+    border-radius: 75px;
+    background-color: rgba(14,20,54,255);
+}
+#dineInIcon{
+    height: 50px;
+    width: 50px;
+}
+#takeOutIcon{
+    height: 50px;
+    width: 50px;
+}
+#deliveryIcon{
+    height: 50px;
+    width: 50px;
+}
+
+
+
+
+
+
+
+
+.popularDishesContainer{
+    width: 100%;
+    height: 800px;
+    position: relative;
+    
+}
+
+.popularDishesTitle{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.popularDishesContainer h1{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;  
+    margin-bottom: 0px;
+}
+
+.subheading{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: rgba(199, 199, 199, 0.8);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 22px;
+}
+
+.allFoodContainers{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.foodItem{
+    
+    height: 500px;
+    width: 300px;
+    /*background-color: red;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+
+
+
+#firstFlower{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    
+}
+
+#secondFlower{
+    transform: scaleX(-1);
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+}
+#rotatingFlower{
+    position: absolute;
+    top: 5%;
+    left: 2%;
+    transform-origin: center;
+    animation: rotate 10s linear infinite;
+}
+@keyframes rotate {
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(360deg);}
+}
+
+.foodItem h2{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 0px;
+}
+
+.nameOfItem{
+    transition-property: opacity, transform;
+    transition-timing-function: ease-in, ease;
+    transition-duration: 0.3s, 0.3s;
+    
+}
+.newFadeOutDown{
+    opacity: 0;
+    transform: translateY(40px);
+}
+.newFadeInUp{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+
+.burritoImageContainer{
+    height: 220px;
+    width: 230px;
+    transition-property: opacity, transform;
+    transition-timing-function: ease-in, ease;
+    transition-duration: 0.3s, 0.3s;
+    transition-delay: 0.1s;
+
+}
+
+.fadeOutDown{
+    opacity: 0;
+    transform: translateY(40px);
+}
+.fadeInUp{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+#burritoImage{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+#tacoImage{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+#quesadillaImage{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+
+.descriptionParagraph{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: rgba(199, 199, 199, 0.8);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    transition-property: opacity, transform;
+    transition-duration: 0.4s, 0.4s;
+    transition-timing-function: ease-in, ease;
+    
+}
+
+.descriptionUnShow{
+    opacity: 0;
+    transform: translateY(40px);
+}
+/*@keyframes paragraphFade {
+    0%{opacity: 0; transform: translateY(0);}
+    100%{opacity: 0; transform: translateY(40px);}
+}*/
+
+.descriptionShow{
+    /*animation-name: multipleAnimation;
+    animation-timing-function: ease;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;*/
+    opacity: 1;
+    transform: translateY(0);
+    
+}
+/*@keyframes multipleAnimation {
+    0%{opacity: 0; transform: translateY(40px);}
+    80%{opacity: 0; transform: translateY(-5px);}
+    100%{opacity: 1; transform: translateY(0);}
+}*/
+
+
+.newOriginStory{
+    margin-top: 120px;
+    width: 100%;
+    background-color: rgba(14,20,54,255);
+    display: flex;
+    flex-direction: row;
+
+}
+
+.leftSideImagesContainer{
+    width: 60%;
+    /*height: 650px;*/
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+}
+
+.rightSideStoryContainer{
+    width: 40%;
+    height: 600px;
+    /*background-color: red;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.colOne{
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    /*background-color: aqua;*/
+    width: 250px;
+    /*background-color: black;*/
+    justify-content: center;
+    align-items: center;
+}
+
+.guyOnHorseImageContainer{
+    height: 400px;
+    width: 220px;
+    
+}
+
+#guyOnHorse{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    
+}
+
+.womanLeafContainer{
+    margin-top: 15px;
+    height: 150px;
+    width: 185px;
+}
+
+#womanLeaf{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    
+}
+
+.colTwo{
+    height: 650px;
+    width: 210px;
+    /*background-color: blueviolet;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.guyJumpingContainer{
+    width: 120px;
+    height: 80px;
+}
+#guyJumping{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    
+}
+
+.guyStandingOnRock{
+    height: 400px;
+    width: 200px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    
+    
+}
+#guyOnRock{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+
+}
+
+.womanOnWater{
+    width: 280px;
+    height: 140px;
+    
+}
+
+#womanWater{
+    margin-left: 10px;
+    margin-top: 0px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    
+}
+
+.colThree{
+    height: 500px;
+    width: 300px;
+    /*background-color: red;*/
+    display: flex;
+    flex-direction: column;
+}
+
+.twoImagesContainer{
+    width: 280px;
+    height: 140px;
+    /*background-color: violet;*/
+    display: flex;
+    flex-direction: row;
+}
+
+.iglesiaContainer{
+    height: 130px;
+    width: 200px;
+    margin-right: 10px;
+}
+#iglesiaImage{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+.waterFallContainer{
+    height: 130px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+#waterFallImage{
+    height: 70%;
+    width: 80%;
+    object-fit: cover;
+    
+}
+
+.volcanoeContainer{
+    height: 145px;
+    width: 285px;
+}
+#volcanoeImage{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    
+}
+
+.sunSetContainer{
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+}
+#sunSetImage{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+.storyContainer{
+    height: 500px;
+    width: 95%;
+    margin-right: 15px;
+    /*background-color: aqua;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.storyContainer h1{
+    margin-bottom: 0px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.storyContainer h3{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.storyContainer p{
+    color: rgba(199, 199, 199, 0.8);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300px;
+    line-height: 1.6;
+    font-size: 15px;
+}
+
+.secondMenuButton{
+    height: 45px;
+    width: 180px;
+    border-radius: 17px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    background: linear-gradient(to left, white 50%, #63A4FF 50%);
+    background-size: 200% 100%;
+	background-position: right bottom;
+    transition: 0.5s ease;
+}
+.secondMenuButton:hover{
+    color: white;
+    background-position: left bottom;
+    
+}
+
+
+.secondMenuButton p{
+    color: rgba(14,20,54,255);
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+
+
+
+.reviewSection{
+    background-color: rgb(27, 26, 99);
+    width: 100%;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;
+    align-items: center;*/
+    align-items: center;
+}
+
+
+
+.reviewSection h1{
+    margin-top: 40px;
+    margin-bottom: 0px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.reviewSection p{
+    color: rgba(199, 199, 199, 0.8);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+.allReviews{
+    
+    width: 100%;
+    
+}
+.firstRowOfReviews{
+    margin-top: 25px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /*align-items: center;*/
+}
+
+.reviewNumOne{
+    height: 290px;
+    width: 420px;
+    border-radius: 10px;
+    background-color: rgba(14,20,54,255);
+    
+    transition: opacity 0.3s ease-in;
+}
+
+.nameContainer{
+    /*background-color: aqua;*/
+    margin-left: 25px;
+}
+.nameContainer p{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+.starContainer{
+    /*background-color: red;*/
+    display: flex;
+    flex-direction: row;
+    margin-left: 25px;
+    margin-bottom: 15px;
+
+}
+#filledStar{
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+}
+
+.actualReviewContainer{
+    /*background-color: blueviolet;*/
+    margin-left: 25px;
+    margin-bottom: 10px;
+    width: 365px;
+}
+
+.actualReviewContainer p{
+    color: rgba(199, 199, 199, 0.8);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-style: italic;
+}
+
+.dateReview{
+    margin-left: 25px;
+    color: rgba(199, 199, 199, 0.8);
+    font-size: 15px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.reviewNumTwo{
+    height: 320px;
+    width: 430px;
+    border-radius: 10px;
+    background-color: rgba(14,20,54,255);
+    transition: opacity 0.3s ease-in;
+}
+
+.reviewNumThree{
+    height: 250px;
+    width: 420px;
+    border-radius: 10px;
+    background-color: rgba(14,20,54,255);
+    transition: opacity 0.3s ease-in;
+}
+
+.secondRowOfReviews{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.reviewNumFour{
+    height: 210px;
+    width: 420px;
+    border-radius: 10px;
+    background-color: rgba(14,20,54,255);
+    transition: opacity 0.3s ease-in;
+}
+
+.reviewNumFive{
+    height: 200px;
+    width: 420px;
+    border-radius: 10px;
+    background-color: rgba(14,20,54,255);
+    transition: opacity 0.3s ease-in;
+}
+
+.reviewNumSix{
+    height: 350px;
+    width: 420px;
+    border-radius: 10px;
+    background-color: rgba(14,20,54,255);
+    transition: opacity 0.3s ease-in;
+}
+
+.fadeOut{
+    opacity: 0;
+}
+.fadeIn{
+    opacity: 1;
+}
+
+
+.seaFoodSection{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+    /*background-color: rgba(14,20,54,255);*/
+    /*background-color: red;*/
+    
+
+}
+
+.topLeftSection{
+    width: 100%;
+    height: 450px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+}
+
+
+.slideToRightContainer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0%;
+    /*width: 100%;*/
+    background-color: rgb(27, 26, 99);
+    /*transition: width 0.6s ease;*/
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+    
+}
+
+.slideToRight{
+    
+    animation: slideIn;
+    animation-duration: 0.8s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    
+}
+
+@keyframes slideIn {
+    0%{height: 100%; width: 0%;}
+    100%{height: 100%; width: 100%;}
+}
+
+.slideBack{
+    
+    animation-name: slideOut;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+@keyframes slideOut {
+    0%{height: 100%; width: 100%;}
+    100%{height: 100%; width: 0%;}
+}
+
+
+.octopusContainer{
+    height: 450px;
+    width: 400px;
+    margin-right: 15%;
+    z-index: 100;
+    transition: opacity 0.5s ease;
+}
+
+#octopusImage{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    
+    
+}
+.opacityHigh{
+    opacity: 1;
+}
+.opacityLow{
+    opacity: 0.25;
+}
+
+/*.opacityLow{
+    animation: low 0.5s ease forwards;
+}
+@keyframes low {
+    0%{opacity: 1;}
+    100%{opacity: 0.3;}
+}
+.opacityHigh{
+    animation: high 0.5s ease forwards;
+}
+@keyframes high {
+    0%{opacity: 0.3;}
+    100%{opacity: 1;}
+}*/
+
+
+.leftSeaSection{
+    width: 60%;
+    height: 700px;
+    /*background-color: palevioletred;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.rightSeaSection{
+    width: 40%;
+    height: 700px;
+    background-color: rgba(14,20,54,255);
+    position: relative;
+}
+
+#fishImage{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#shrimpImage{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#octopusImageSlider{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.buttonImageContainer{
+    position: absolute;
+    top: 90%;
+    left: 70%;
+    /*background-color: red;*/
+    height: 50px;
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.leftButtonContainer{
+    height: 50px;
+    width: 50px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(14,20,54,255);
+}
+#leftButton{
+    height: 20px;
+    width: 20px;
+}
+
+.rightButtonContainer{
+    height: 50px;
+    width: 50px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(14,20,54,255);
+
+}
+
+#rightButton{
+    height: 20px;
+    width: 20px;
+}
+
+
+.mySlides{
+    display: none;
+}
+
+
+.seaFoodTitleContainer{
+    height: 250px;
+    width: 450px;
+    /*background-color: red;*/
+    margin-top: 50px;
+    margin-left: 140px;
+    z-index: 101;
+
+    transition-property: opacity, transform;
+    transition-timing-function: ease-in, ease;
+    transition-duration: 0.5s, 0.5s;
+}
+
+.seaFoodDownAnimation{
+    opacity: 0;
+    transform: translateY(80px);
+}
+.seaFoodUpAnimation{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.seaFoodTitleContainer h1{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+
+}
+
+.seaFoodMenuButtonsContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 35px;
+    width: 400px;
+    /*background-color: aqua;*/
+    margin-left: 140px;
+    z-index: 102;
+    transition: opacity 1s ease;
+}
+
+
+.seaFoodOurMenuButton{
+    /*height: 35px;
+    width: 120px;*/
+
+    height: 50px;
+    width: 125px;
+    
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    cursor: pointer;
+
+    
+    background: linear-gradient(to left, rgba(14,20,54,255) 50%, #63A4FF 50%);
+    background-size: 200% 100%;
+	background-position: right bottom;
+    transition: 0.5s ease;
+    
+}
+
+.seaFoodOurMenuButton:hover{
+    background-position: left bottom;
+}
+
+.seaFoodOurMenuButton p{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    
+}
+
+.seaFoodAboutUsButton{
+    /*height: 35px;
+    width: 120px;*/
+    height: 50px;
+    width: 125px;
+    background-color: rgba(14,20,54,255);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+    background: linear-gradient(to left, rgba(14,20,54,255) 50%, #63A4FF 50%);
+    background-size: 200% 100%;
+	background-position: right bottom;
+    transition: 0.5s ease;
+}
+
+.seaFoodAboutUsButton:hover{
+    background-position: left bottom;
+}
+
+.seaFoodAboutUsButton p{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.rightArrowSeaFood{
+    margin-left: 10px;
+    height: 14px;
+    width: 14px;
+}
+
+.bottomLeftSection{
+    height: 250px;
+    width: 100%;
+    /*background-color: red;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    justify-content: flex-start;
+    position: relative;
+}
+
+.seaFoodDescriptionParagraph{
+    margin-top: 50px;
+    margin-left: 140px;
+    width: 520px;
+    height: 120px;
+    
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    transition: opacity 0.6s ease;
+    
+
+}
+
+.seaFoodIconLow{
+    opacity: 0;
+}
+.seaFoodIconHigh{
+    opacity: 0.3;
+}
+#maracas{
+
+    top: 20%;
+    left: 5%;
+    transform: rotate(-20deg);
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    transition: opacity 0.3s ease;
+    
+}
+
+#shrimp{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    bottom: 20%;
+    left: 20%;
+    transition: opacity 1s ease;
+    
+}
+
+#mayan{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    bottom: 25%;
+    left: 50%;
+    transform: rotate(50deg);
+    transition: opacity 1s ease;
+}
+
+#dayOfDead{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    top: 5%;
+    left: 50%;
+    transform: rotate(-30deg);
+    transition: opacity 1s ease;
+}
+
+#crab{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 20%;
+    right: 10%;
+    transform: rotate(30deg);
+    transition: opacity 1s ease;
+
+}
+
+#cactus{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 80%;
+    right: 5%;
+    transform: rotate(40deg);
+    transition: opacity 1s ease;
+}
+
+#map{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    top: 80%;
+    left: 5%;
+    transition: opacity 1s ease;
+}
+
+#guitar{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    top: 70%;
+    right: 20%;
+    transform: rotate(-150deg);
+    transition: opacity 1s ease;
+}
+
+
+
+
+
+
+
+.lastSection{
+    width: 100%;
+    height: 400px;
+    background-color: rgba(14,20,54,255);
+    display: flex;
+    flex-direction: row;
+}
+
+.footerTitleAndImage{
+    height: 400px;
+    width: 35%;
+    /*background-color: red;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.footerTitleAndImage h1{
+    margin-top: 70px;
+    margin-bottom: 0px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+#sombrero{
+    margin-top: 10px;
+    height: 150px;
+    width: 150px;
+}
+
+.footerSectionContent{
+    height: 400px;
+    width: 65%;
+    /*background-color: aqua;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.visitUsAndContactInformationSection{
+    margin-top: 30px;
+
+}
+
+.visitUsLocation{
+    height: 120px;
+    width: 220px;
+    /*background-color: blueviolet;*/
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.visitUsLocation h3{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 0px;
+    
+}
+
+.location{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    width: 180px;
+    height: 50px;
+    /*background-color: yellowgreen;*/
+}
+
+.emailAndPhoneSection{
+    height: 200px;
+    width: 220px;
+    /*background-color: blue;*/
+    display: flex;
+    flex-direction: column;
+}
+
+.email{
+    display: flex;
+    flex-direction: column;
+   
+}
+.email h3{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 0px;
+}
+.email p{
+    margin-top: 7px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+.phone{
+    display: flex;
+    flex-direction: column;
+    
+}
+.phone h3{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 0px;
+}
+.phone p{
+    margin-top: 7px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+.hoursSection{
+    margin-top: 30px;
+    width: 200px;
+    height: 300px;
+    /*background-color: red;*/
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#hours{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+#closed{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+#hoursTitle{
+    margin-bottom: 0px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+#daysOpen{
+    margin-bottom: 0px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#daysClosed{
+    margin-bottom: 0px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.topBarContent{
+    margin-top: 30px;
+    height: 300px;
+    width: 200px;
+    /*background-color: #63A4FF;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*justify-content: center;*/
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.aguasFrescasContainer{
+    width: 100%;
+    height: 700px;
+    background-color: rgb(27, 26, 99);
+    
+}
+
+
+
+.swiper{
+    
+    height: 100%;
+    width: 100%;
+}
+
+
+.aguaFrescasTitleSection{
+    /*margin-top: 10px;*/
+    margin-left: 40px;
+    width: 58%;
+    height: 100px;
+    /*background-color: red;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#aguas{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+#frescas{
+    margin-top: 0px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.ourChoiceTitle{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.swiper-slide:nth-child(1){
+
+    
+}
+
+.wholeContainer{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    /*background-color: #81c784;*/
+    /*background-color: #f06292;*/
+}
+.waterMelonImageContainer{
+    width: 100%;
+    height: 450px;
+    /*background-color: red;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+#watermelonImage{
+    height: 300px;
+    width: 300px;
+    transform: rotate(70deg);
+    margin-bottom: 100px;
+    z-index: 998;
+}
+
+.watermelonTitle{
+    /*position: absolute;*/
+    
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 120px;
+    margin-top: 0px;
+}
+
+.freshTitle{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    margin-bottom: 0px;
+    font-size: 40px;
+    
+}
+
+.watermelonTitleContainer{
+    /*position: absolute;
+    top: 0;
+    left: 0;*/
+    position: absolute;
+    z-index: 999;
+}
+
+.lastAguaFrescaSection{
+    width: 100%;
+    height: 120px;
+    /*background-color: red; */  
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.lineContainer{
+    width: 40px;
+    height: 120px;
+    /*background-color: blue;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.line{
+    width: 90%;
+    height: 3px;
+    background-color: white;
+    margin-bottom: 17px;
+
+}
+
+
+.expressionContainer{
+    margin-right: 40px;
+}
+.expressionContainer p{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 0px;
+
+}
+
+.aguafrescaImageIcon{
+    height: 70px;
+    width: 70px;
+}
+#green{
+    position: absolute;
+    top: 20%;
+    right: 20%;
+    transform: rotate(40deg);
+
+}
+#pink{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: rotate(-20deg);
+}
+
+
+
